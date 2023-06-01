@@ -1,0 +1,33 @@
+.fonovoye-razmytie {
+    height: 476px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("Ссылка на изображение/beach-1.jpg") center no-repeat;  
+  }
+  .fonovoye-razmytie span {
+    position: relative;
+    text-align: center;
+    color: #000000;
+    width: 48%;
+    font-size: 36px;
+    line-height: 36px;  
+    padding: 36px 0;
+    box-shadow: 0 6px 18px rgb(8 8 8 / 20%), 0 16px 28px rgb(8 8 8 / 20%);
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);  
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .fonovoye-razmytie span:before {
+    content: "";
+    position: absolute;
+    top: -48%;
+    left: -48%;
+    height: 216%;
+    width: 216%;
+    filter: blur(8px);
+    z-index: -1;
+  }
